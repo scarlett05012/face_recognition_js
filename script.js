@@ -1,3 +1,5 @@
+var PORT = process.env.PORT;
+
 const video = document.getElementById('video')
 
 Promise.all([
